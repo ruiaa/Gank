@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Gank</string>
+
+    <string name="share">分享</string>
+    <string name="save">保存</string>
+    <string name="refresh">刷新</string>
+    <string name="copy_url">复制链接</string>
+    <string name="open_url">打开链接</string>
+    <string name="category">分类</string>
+    <string name="about">关于</string>
+    <string name="theme">主题</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <string name="loading">加载中...</string>
+    <string name="load_fail">加载失败，请重试</string>
+    <string name="retry">重试</string>
+
+    <string name="tip_open_url_fail">打开失败，没有找到可以打开该链接的其它应用 :(</string>
+    <string name="tip_copy_url_ok">复制成功</string>
+    <string name="tip_picture_save_fail">图片保存失败，请再次尝试保存！</string>
+    <string name="tip_picture_save_ok">图片保存成功</string>
+    <string name="tip_picture_has_save_to">图片已保存至 %s 文件夹</string>
+
+    <string name="share_meizhi_to">分享妹纸到...</string>
+
+
+    <string name="about_content">
+        \n数据来源：<a href="http://gank.io">干货集中营 gank.io</a>
+        \n
+        \n我的Github：<a href="https://github.com/ruiaa/Gank"> ruiaa </a></string>
+
+
+    <!--分类-->
+    <string name="category_meizi">妹纸</string>
+    <string name="category_video">休息视频</string>
+    <string name="category_android">android</string>
+    <string name="category_ios">iOS</string>
+    <string name="category_front">前端</string>
+    <string name="category_expanding">拓展资源</string>
+    <string name="category_recommend">瞎推荐</string>
+    <string name="category_app">App</string>
+
+    <!--url-->
+    <string name="url_login_github">https://github.com/login</string>
+    <string name="url_github_trending">https://github.com/trending</string>
+    <string name="url_gank_io">http://gank.io/</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

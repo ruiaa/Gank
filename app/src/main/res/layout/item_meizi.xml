@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <data>
+        <import type="com.ruiaa.gank.util.DateUtil"/>
+        <variable
+            name="itemMeizi"
+            type="com.ruiaa.gank.model.Gank"
+            />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@mipmap/bg_card"
+        android:clickable="true"
+        android:orientation="vertical"
+        >
+
+        <com.ruiaa.gank.ui.widget.ImgViewGlide
+            android:id="@+id/item_meizi_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:imageUrl="@{itemMeizi.url}"
+            />
+
+        <TextView
+            android:id="@+id/item_meizi_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@{DateUtil.dateNoYear(itemMeizi.publishedAt)+` `+(itemMeizi.desc.length() > 50 ? itemMeizi.desc.substring(0, 50) +`...` : itemMeizi.desc)}"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    
+    
+    
+    <style name="NavDrawerTextStyle">
+        <item name="android:textColor">@color/nav_menu_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LabelTextStyle">
+        <item name="android:textColor">@color/md_grey_900</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GankTitleStyle">
+        <item name="android:textColor">@color/md_grey_900</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="NoteTextStyle">
+        <item name="android:textColor">@color/md_grey_400</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

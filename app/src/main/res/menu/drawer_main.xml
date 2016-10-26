@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_meizi"
+            android:checked="true"
+            android:title="@string/category_meizi"
+            android:icon="@mipmap/ic_category_meizi"
+            />
+
+        <item
+            android:id="@+id/drawer_video"
+            android:title="@string/category_video"
+            android:visible="false"
+            android:icon="@mipmap/ic_category_video"
+            />
+
+        <item
+            android:id="@+id/drawer_android"
+            android:title="@string/category_android"
+            android:icon="@mipmap/ic_category_android"
+            />
+
+        <item
+            android:id="@+id/drawer_ios"
+            android:title="@string/category_ios"
+            android:icon="@mipmap/ic_category_ios"
+            />
+
+        <item
+            android:id="@+id/drawer_front"
+            android:title="@string/category_front"
+            android:icon="@mipmap/ic_category_front"
+            />
+
+        <item
+            android:id="@+id/drawer_expanding"
+            android:title="@string/category_expanding"
+            android:icon="@mipmap/ic_category_expand"
+            />
+
+        <item
+            android:id="@+id/drawer_recommend"
+            android:title="@string/category_recommend"
+            android:icon="@mipmap/ic_category_recommend"
+            />
+
+        <item
+            android:id="@+id/drawer_app"
+            android:title="@string/category_app"
+            android:icon="@mipmap/ic_category_app"
+            />
+
+    </group>
+
+</menu>

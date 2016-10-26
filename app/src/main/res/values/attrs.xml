@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorMain" format="color|reference"/>
+
+    <declare-styleable name="ScrollToScaleBehavior">
+        <attr name="targetView" format="reference"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+
+        <import type="com.ruiaa.gank.util.DateUtil"/>
+        <import type="com.ruiaa.gank.util.StringStyles"/>
+
+        <import type="android.view.View"/>
+
+        <variable
+            name="itemGank"
+            type="com.ruiaa.gank.model.Gank"
+            />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/item_gank_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="@{itemGank.label}"
+            android:visibility="@{itemGank.label==null ? View.GONE:View.VISIBLE}"
+            style="@style/LabelTextStyle"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="8dp"
+                android:text="*"
+                style="@style/GankTitleStyle"
+                />
+
+            <TextView
+                android:id="@+id/item_gank_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{StringStyles.noteFormat(itemGank.desc , `  @`+itemGank.who)}"
+                style="@style/GankTitleStyle"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
