@@ -4,10 +4,9 @@
 使用RxJava,Retrofit,glide,databinding
 
 ## 截图
-![](/screenshots/0.jpg) 
-![](/screenshots/1.jpg)
-![](/screenshots/2.jpg)
-![](/screenshots/3.jpg)
+<img src="/screenshots/0.png" alt="screenshot" title="screenshot" width="270" height="480" /> <img src="/screenshots/1.png" alt="screenshot" title="screenshot" width="270" height="480" />
+
+<img src="/screenshots/2.png" alt="screenshot" title="screenshot" width="270" height="480" /> <img src="/screenshots/3.png" alt="screenshot" title="screenshot" width="270" height="480" />
 
 ## 下载
 [http://fir.im/ruigank](http://fir.im/ruigank)
